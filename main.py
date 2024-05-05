@@ -10,6 +10,8 @@ def count_common_ngrams(ngrams1, ngrams2):
         if ngram in ngrams2:
             common_ngrams_count += 1
     return common_ngrams_count
+    
+#count_common_ngrams= len(ngrams1.intersection(ngrams2))
 
 def sorenson_dice_coefficient(text1, text2, n):
     """Compute the Sorensen-Dice coefficient between two texts using n-grams."""
